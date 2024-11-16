@@ -1,4 +1,13 @@
 def fatorial(n: int) -> int:
+    '''
+    Retorna o fatorial de um número n.
+
+    Parâmetros:
+    n (int): Um número inteiro não negativo.
+
+    Retorna:
+    int: O fatorial de n.
+    '''
     if n == 0:
         return 1
     else:
